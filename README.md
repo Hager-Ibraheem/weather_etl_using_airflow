@@ -18,8 +18,8 @@ To run this project, ensure you have the following:
 To deploy Airflow on Docker:
 1. Clone This Repo
    ```bash
-   git clone https://github.com/Hager-Ibraheem/weather_etl_project.git
-   cd weather_etl_project
+   git clone https://github.com/Hager-Ibraheem/weather_etl_using_airflow_on_docker.git
+   cd weather_etl_using_airflow_on_docker
    ```
 2. Create folders for logs, plugins and config
    ```bash
