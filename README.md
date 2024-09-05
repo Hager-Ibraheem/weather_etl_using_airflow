@@ -53,4 +53,4 @@ To deploy Airflow on Docker:
     ![image](https://github.com/user-attachments/assets/5fd5b589-b924-483b-8660-0ded24520c0b)
 1. **Variables**
    - API Key: Replace the placeholder f7e1d21eba18e9326d59148f77bafe65 with your actual OpenWeather API key.
-   - S3 Bucket: Replace hi-weather with your S3 bucket.
+   - S3 Bucket: Replace hi-weather with your S3 bucket name.
