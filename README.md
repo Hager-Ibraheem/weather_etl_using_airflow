@@ -46,11 +46,11 @@ To deploy Airflow on Docker:
 ### Configuration
 1. **Connections**
    - OpenWeather API Connection: An HTTP connection with the ID openweather_conn must be configured in Airflow UI to check the availability of the OpenWeather API.
-     
-     ![image](https://github.com/user-attachments/assets/d2f9f15e-9bcf-4c55-adc6-027d57ddebf1)
+  
+     ![image](https://github.com/user-attachments/assets/609a074f-3a8f-43cf-8c29-75da39ca2724)
    - S3 Connection: An AWS S3 connection with the ID S3_conn must be set up in Airflow UI to allow uploading files to the S3 bucket.
      
-     ![image](https://github.com/user-attachments/assets/78aa2c32-d9a9-4f70-b5ac-30f26763bac0)
-2. **Variables**
+    ![image](https://github.com/user-attachments/assets/5fd5b589-b924-483b-8660-0ded24520c0b)
+1. **Variables**
    - API Key: Replace the placeholder f7e1d21eba18e9326d59148f77bafe65 with your actual OpenWeather API key.
    - S3 Bucket: Replace hi-weather with your S3 bucket.
