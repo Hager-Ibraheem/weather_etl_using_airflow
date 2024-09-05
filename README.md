@@ -3,6 +3,12 @@
 ## Description
 This project runs Apache Airflow on Docker to automate the ETL processes of extracting current weather data for Alexandria from the OpenWeather API, transforming the data, and loading it into an S3 bucket in CSV format. The pipeline runs daily.
 
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Configuration](#configuration)
+  
 ### Features
 - **Data Extraction**: extracts current weather data by sending a GET request to the OpenWeather API using the API key and city name.
 - **Data Transformation**: transforms the weather data by converting temperature units, formatting timestamps, and extracting relevant fields. Saves the transformed data to a temporary CSV file.
