@@ -14,7 +14,9 @@ This project runs Apache Airflow on Docker to automate the ETL processes of extr
 - **Data Transformation**: transforms the weather data by converting temperature units, formatting timestamps, and extracting relevant fields. Saves the transformed data to a temporary CSV file.
 - **Data Loading**: loads the CSV file to an S3 bucket using an S3Hook. The file is named using the date and time of data calculation.
 - **Automation**: uses Apache Airflow on Docker to automate the ETL processes.
-  
+
+  ![image](https://github.com/user-attachments/assets/40322ba3-29d6-41af-be7f-f3d3872911e3)
+
 ### Prerequisites
 To run this project, ensure you have the following:
 - Docker and Docker Compose.
@@ -50,7 +52,7 @@ To deploy Airflow on Docker:
      ![image](https://github.com/user-attachments/assets/609a074f-3a8f-43cf-8c29-75da39ca2724)
    - S3 Connection: An AWS S3 connection with the ID S3_conn must be set up in Airflow UI to allow uploading files to the S3 bucket.
      
-    ![image](https://github.com/user-attachments/assets/5fd5b589-b924-483b-8660-0ded24520c0b)
+       ![image](https://github.com/user-attachments/assets/5fd5b589-b924-483b-8660-0ded24520c0b)
 1. **Variables**
    - API Key: Replace the placeholder f7e1d21eba18e9326d59148f77bafe65 with your actual OpenWeather API key.
    - S3 Bucket: Replace hi-weather with your S3 bucket name.
